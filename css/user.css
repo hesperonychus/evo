@@ -1,0 +1,26 @@
+#login_block, #reg_block{
+    width:300px;
+    border:1px solid #666;
+    text-align:center;
+
+}
+#login_block form input, #reg_block form input{
+display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#login_block label, #reg_block label{
+    display:block;
+}
+#error_block{color:red;}
+#error-box p{
+    height:16px;
+    background:url("/images/error_button_16.png") no-repeat;
+    padding-left:18px;
+    border:1px solid red;
+    color:red;
+    font:10px verdana;
+    margin-bottom:5px;
+    
+}

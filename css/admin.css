@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+body{
+background:#f3f5ec;
+}
+.item{
+        width:500px;
+        height:25px;
+        -moz-border-radius:2px;
+        background:#cecece;
+        border:1px solid #666;
+        clear:both;
+        margin-top:2px;
+        width: 100%;
+        
+        
+    }
+        .item_name{
+            float:left;
+            margin-left:3px;
+            height: 100p%;
+            width: 150px;
+        }
+        .item_save,.tem_arhive{
+            width:16px;
+            height:16px;
+            float:right;
+            margin-top:2px;
+            margin-right:2px;
+            
+        }      
+        .item_save_show{
+            background:url("/images/1307032431_Save.png");
+            cursor:pointer;
+        }
+        .tem_arhive{
+            background:url("/images/1307032490_Archive.png");
+        }
+        #item_edit{
+            display:none;
+            position:absolute;
+            border:0;
+            margin-top: 1px;
+
+        }
+        .not_save{
+            color:red;/*#7E0001;*/
+            font-style:italic;
+             font-size: 12px;
+   			 font-weight: bold;
+    		line-height: 18px;
+        }
+        .price{
+        	width: 50px;
+        }
+        .discription{
+        width: 300px;
+        overflow: hidden;
+        }
+        #new_item{
+          background: none repeat scroll 0 0 #adba7d;
+    border: 1px solid #7b8849;
+    border-radius: 8px 8px 8px 8px;
+    color: #3f4625;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: block;
+    float: right;
+    font-family: verdana;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+        }
+        #new_item_wnd{
+        width: 405px;
+        border:1px solid #666;margin-left: 100px;
+        background: #d0d7b5;
+         border: 1px solid #666666;
+    border-radius: 8px 8px 8px 8px;
+    color:#3f4625;
+    display: none;
+    position: absolute;
+        }
+        
+        #new_item_wnd div{
+        margin-top: 5px;
+        margin-left: 5px;
+        }
+        #new_item_header_wnd{
+        height: 10px;
+        background:  #adba7d;
+        margin-top: 0;
+        }
+         #new_item_add{
+                 	  background: none repeat scroll 0 0 #adba7d;
+    border: 1px solid #7b8849;
+    border-radius: 8px 8px 8px 8px;
+    color: #3f4625;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    margin-bottom: 5px;
+         }
+         
+        
+

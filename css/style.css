@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+ body{
+     background:#f3f5ec;
+ }
+ #main{
+     margin-left:auto;
+     margin-right:auto;
+     height:100%;
+     /*background:url("/images/960_grid_12_col.png");*/
+     border: 1px solid #51767c;
+     background:#ecefe1;
+     height:100%;
+ }
+ #header{
+     height:70px;background:#cecece;
+ }
+#left_slide,#right_slide, #content{
+    background:#D0D7B5;
+    margin-top:10px;
+}
+#left_slide,#right_slide{
+    
+}
+#signup_form{
+    border:1px solid #666;
+    margin-left:auto;
+    margin-right:auto;
+}
+#signup_form input[type=text],#signup_form input[type=password]
+{font-family:'comic Sans MS';
+  font-size:20px;
+  height:30px;
+  text-align:center;
+  width:250px;
+}
+
+/*
+#main{
+width: 800px;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #51767c;
+background:#ecefe1;
+}
+#header{
+height: 35px;
+padding-top:5px;
+padding-bottom:5px;
+position: relative;
+}
+#logo{
+width: 500px;
+float: left;
+padding-left: 10px;
+}
+#login{
+    background: none repeat scroll 0 0 #bbc693;
+    border-radius: 7px 7px 7px 7px;
+    color: #FFFFFF;
+    float: right;
+    height: 36px;
+    line-height: 30px;
+    padding-right: 10px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: -4px;
+    width: 90px;
+}
+#container{
+
+}
+
+#left-slide{
+margin-top: 10px;
+float: left;
+}
+#menu{
+width: 250px
+}
+#content{
+width: 530px;
+float: right;
+margin-top: 10px;
+margin-right:10px
+}
+#menu{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#menu li{
+display: block;
+width: 200px;
+height: 30px;
+line-height: 30px;
+margin-left: 10px;
+border: 1px solid #51767c;
+padding-left: 5px;
+margin-bottom: 1px;
+background:#dee3cb;
+}
+#menu li:hover{
+background:#bbc693;
+margin-left:5px;
+width:210px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+-webkit-box-shadow: 5px 5px 5px #ccc;
+box-shadow: 5px 5px 5px #ccc;
+}
+#menu li a
+{
+text-decoration:none;
+color:#000;
+display:block;
+}
+    label{
+        color:#000;
+    }
+    form input{
+        width:100px
+    }
+    */
